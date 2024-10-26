@@ -14,12 +14,17 @@ This dataset is collected from Flixable which is a third-party Netflix search en
 It has been provided in this repository as **_Netflix Dataset.csv_** for ease of use.      
 The dataset includes information on Netflix’s catalog, such as titles, genres, release dates, country of origin, and content type (Movies or TV Shows). The data allows us to analyze different dimensions of Netflix's library and see how certain aspects have changed over time. 
 
+## Software and Libraries used
+This project uses a variety of tools and libraries to perform data cleaning, visualization, and analysis. Below is a list of the main software and libraries utilized:    
+**Software:** Python 3.8+ and Jupyter Notebook        
+**Libraries:** Pandas and Seaborn
+
 ## Project Structure
 The main sections of this project include:
-- Data Preprocessing: Handling duplicate values and transforming data to prepare it for analysis.
-- Exploratory Data Analysis (EDA): Visualizations and statistical summaries to explore key insights and trends.
-- Insight Generation: Key findings based on the analysis.
-- Conclusion and Recommendations: Suggestions based on the identified patterns.
+- **Data Preprocessing:** Handling duplicate values and transforming data to prepare it for analysis.
+- **Exploratory Data Analysis (EDA):** Visualizations and statistical summaries to explore key insights and trends.
+- **Insight Generation:** Key findings based on the analysis.
+- **Conclusion and Recommendations:** Suggestions based on the identified patterns.
 
 ## Getting Started
 To replicate this analysis, ensure you have Python 3.x installed along with the following libraries:  
@@ -67,9 +72,9 @@ cd Netflix-Data-Analysis
 
 ## Conclusion and Recommendations
 The Netflix catalog has evolved substantially, growing not only in volume but in diversity of genres and content types. While movies still dominate, the increasing number of TV shows suggests a shift in Netflix’s content strategy. Additionally, regional content distribution highlights Netflix’s global reach, although a significant amount of content remains U.S.-centric. This analysis can guide Netflix in strategic content investments, aligning with viewer preferences and expanding their global market.       The following recommendations are proposed:       
-- Content Strategy: Netflix could focus on producing more original content in popular genres.
-- Regional Insights: Expanding region-specific content for diverse audience engagement.
-- Personalization: Utilize findings on ratings and genres to refine recommendation algorithms.
+- **Content Strategy:** Netflix could focus on producing more original content in popular genres.
+- **Regional Insights:** Expanding region-specific content for diverse audience engagement.
+- **Personalization:** Utilize findings on ratings and genres to refine recommendation algorithms.
 
 ## Future Work
 Future improvements to this project could include:        
